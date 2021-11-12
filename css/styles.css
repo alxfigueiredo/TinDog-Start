@@ -1,0 +1,230 @@
+body
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3
+{
+  line-height: 1.5;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+p
+{
+  color: #8f8f8f;
+}
+
+/* Containers */
+
+.container-fluid
+{
+  padding:7% 15%;
+}
+
+/* Sections */
+
+.colored-secion
+{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-secion
+{
+  background-color: #fff;
+}
+/* Headings */
+
+.big-heading
+{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand
+{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item
+{
+  padding : 0 18px;
+}
+
+.nav-link
+{
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* Download Buttons */
+
+.download_button
+{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title
+{
+  text-align: left;
+}
+
+#title .container-fluid
+{
+  padding:3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image
+{
+  transform : rotate(25deg);
+  width: 18%;
+  position: absolute;
+  right: 30%
+}
+
+/* Challenge - Features */
+#features
+{
+  position: relative;
+}
+
+.feature_img
+{
+  display: block;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature_img:hover
+{
+  color: #ff4c68;
+}
+
+.feature_title
+{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.col-lg-4
+{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding: 5%;
+  margin: 0 auto 0 auto;
+}
+
+/* Testimonial Section */
+
+#testimonials
+{
+  background-color: #ef8172;
+}
+
+.testimonial_image
+{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.testimonial-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Press Section */
+
+#press
+{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press_Logo
+{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing
+{
+  padding: 100px;
+}
+
+.pricing-column
+{
+  /* padding: 3% 2%; */
+}
+
+.price-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.card-title
+{
+  color: black;
+}
+
+@media (max-width: 1028px)
+{
+  .title-image
+  {
+    position: static;
+    transform : rotate(0deg);
+    width: 40%;
+  }
+
+  #title
+  {
+    text-align: center;
+  }
+}
+
+/* Footer Section */
+
+.social-media-icons
+{
+  margin: 5% 1% 3%
+}
